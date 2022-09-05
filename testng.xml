@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/VivekJoshi/IdeaProjects/Dandy/APIFramework">
+    <classes><class name="GET_Method.Event_Details"><methods>
+        <include name="Evntdetail"/></methods>
+    </class>
+        <class name="POST_Method.CreateEvent">
+            <methods>
+                <include name="CreateEvent"/>
+            </methods>
+        </class>
+        <class name="GET_Method.Event_Details">
+            <methods>
+                <include name="EventDetail"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
